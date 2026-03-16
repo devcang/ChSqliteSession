@@ -2,10 +2,10 @@
 
 SQLite DB backend for CherryPy sessions.
 
-[Re](https://github.com/davidmroth/SqliteSession)
+[Re] davidmroth/SqliteSession (https://github.com/davidmroth/SqliteSession)
 
 
-Usage:
+### Usage:
 
 from ChSqliteSession import SqliteSession
 
@@ -14,7 +14,7 @@ from ChSqliteSession import SqliteSession
 
   conf = {  
     'global': {  
-          'tools.sessions.storage_path'  : os.path.abspath(os.path.dirname(__file__)),  
+          'tools.sessions.storage_path'  : os.path.abspath(os.path.dirname(__file\__)),  
           'tools.sessions.storage_file'  : "ChSqliteSession2.db",  
           'tools.sessions.storage_class' : SqliteSession,  
           'tools.sessions.timeout'       : 1, #expire, minute(s)  
